@@ -1,7 +1,11 @@
 # Installation
 - to install this module use : 
-```npm install trend_test_task```
+```
+npm install trend_test_task 
+```
+
 # Usage
+
 ``` 
 var reduceArrayToString = require('trend_test_task');
 
