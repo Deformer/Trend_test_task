@@ -2,7 +2,6 @@ const reduce = require('../index');
 const assert = require('assert');
 const fs = require('fs');
 const testValue = JSON.parse(fs.readFileSync('testValue.json'));
-console.log(testValue);
 
 describe('reduce', function() {
 	it('should return a string', function(done) {
@@ -16,7 +15,7 @@ describe('reduce', function() {
 	  });
 	});
 	testValue.forEach((item)=>{
-		it(`return a string  ${item.output} if array is ${item.input}`,(done)=>{
+		it(`should return a string  ${item.output} if array is ${item.input}`,(done)=>{
 		reduce(item.input,(err,resultString) => {
 			if(err) done(err);
 			else{
