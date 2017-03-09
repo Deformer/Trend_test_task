@@ -1,0 +1,25 @@
+{
+  "name": "trend_test_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deformer/Trend_test_task.git"
+  },
+  "author": "sergey belan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deformer/Trend_test_task/issues"
+  },
+  "homepage": "https://github.com/Deformer/Trend_test_task#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
